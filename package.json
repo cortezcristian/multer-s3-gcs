@@ -1,0 +1,66 @@
+{
+  "name": "multer-s3-gcs",
+  "version": "0.0.1",
+  "description": "Amazon S3 and Google Cloud Storage parallel upload made easy",
+  "main": "lib/storage_engine.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezcristian/multer-s3-gcs.git"
+  },
+  "keywords": [
+    "gcs",
+    "Google",
+    "Cloud",
+    "Storage",
+    "Google cloud storage",
+    "parallel",
+    "upload",
+    "S3",
+    "v2",
+    "AWS",
+    "bucket",
+    "amazon",
+    "version",
+    "versions",
+    "marker",
+    "markers",
+    "file",
+    "files",
+    "object",
+    "objects",
+    "list",
+    "upload",
+    "multiple",
+    "listObjectVersions",
+    "listObjectsV2",
+    "pagination",
+    "paged",
+    "recursion",
+    "recursively",
+    "ContinuationToken",
+    "NextContinuationToken",
+    "NextKeyMarker",
+    "NextVersionIdMarker",
+    "tool",
+    "kit",
+    "toolkit",
+    "remove",
+    "delete"
+  ],
+  "author": "Cristian Cortez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortezcristian/multer-s3-gcs/issues"
+  },
+  "homepage": "https://github.com/cortezcristian/multer-s3-gcs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
