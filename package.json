@@ -2,7 +2,7 @@
   "name": "multer-s3-gcs",
   "version": "0.0.1",
   "description": "Amazon S3 and Google Cloud Storage parallel upload made easy",
-  "main": "lib/storage_engine.js",
+  "main": "lib/storageEngine.js",
   "scripts": {
     "patch-release": "npm version patch && npm publish && git push --follow-tags",
     "test": "./node_modules/.bin/mocha test"
